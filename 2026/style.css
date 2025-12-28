@@ -652,7 +652,8 @@ a.tix-website-url-blog-portfolio-or-agency::before {
 }
 
 .sponsorship-table-container tr td:nth-child(2) {
-	background-color: #f3f3f3;
+	/*background-color: #f3f3f3;*/
+	background: #ffe8ae;
 }
 
 .sponsorship-table-container tr td:nth-child(3) {
@@ -670,4 +671,5 @@ a.tix-website-url-blog-portfolio-or-agency::before {
 .sponsorship-table-container tr td:nth-child(6) {
 	background-color: #d2f5fe;
 }
+
 
