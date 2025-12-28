@@ -612,6 +612,9 @@ a.tix-website-url-blog-portfolio-or-agency::before {
 }
 
 
+
+
+/*SPONSORSHIP PACKAGES*/
 .sponsorship-table-container .sponsorship-table-wrap {
 	overflow-x: auto;
 	max-width: 100%;
@@ -673,6 +676,7 @@ a.tix-website-url-blog-portfolio-or-agency::before {
 .sponsorship-table-container tr td:nth-child(6) {
 	background-color: #d2f5fe;
 }
+
 
 
 
