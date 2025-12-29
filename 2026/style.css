@@ -583,31 +583,42 @@ form[action*="tix_action=attendee_info"] input[type="submit"]:focus {
 	}
 
 	.wp-block-navigation__container {
-		gap: 0 !important;
-	}
+	gap: 0 !important;
+}
 
-	.wp-block-navigation-item {
-		padding: 10px 0 !important;
-		font-size: 18px !important;
-		font-weight: 700 !important;
-	}
+.wp-block-navigation-item {
+	padding: 10px !important;
+	font-size: 18px !important;
+	font-weight: 500 !important;
+}
 
-	.wp-block-navigation__submenu-container,
-	.wp-block-navigation__submenu-container .wp-block-navigation-item {
-		padding-top: 0 !important;
-		padding-bottom: 0px !important;
-		font-size: 15px !important;
-		font-weight: 400 !important;
-	}
+.wp-block-navigation__submenu-container,
+.wp-block-navigation__submenu-container .wp-block-navigation-item {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	font-size: 15px !important;
+	font-weight: 400 !important;
+}
 
-	.wp-block-navigation-item .wp-block-navigation-submenu {
-		padding: 0px !important;
-	}
+.wp-block-navigation-item .wp-block-navigation-submenu {
+	padding: 0 !important;
+}
 
-	body .is-menu-open .wp-block-navigation__responsive-dialog {
-		margin-top: 10px !important;
-	}
+body .is-menu-open .wp-block-navigation__responsive-dialog {
+	margin-top: 10px !important;
+}
 
+.wp-block-navigation__responsive-container-open {
+	background: #111111;
+	padding: 2px !important;
+	border-radius: 3px;
+}
+
+.wp-block-navigation__responsive-container-open svg {
+	fill: #ffffff;
+	width: 28px;
+	height: 28px;
+}
 
 	.googlemaps {
 		margin-top: 50px !important;
@@ -712,3 +723,4 @@ a.tix-website-url-blog-portfolio-or-agency::before {
 .sponsorship-table-container tr td:nth-child(6) {
 	background-color: #d2f5fe;
 }
+
