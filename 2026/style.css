@@ -724,4 +724,8 @@ a.tix-website-url-blog-portfolio-or-agency::before {
 	background-color: #d2f5fe;
 }
 
+/* BUTTON HOVER BACKGROUND COLOR  */
+.wp-element-button:hover, .wp-block-button__link:hover{
+    background-color: var(--wp--preset--color--custom-orang) !important;
+}
 
