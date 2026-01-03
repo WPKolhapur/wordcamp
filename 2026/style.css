@@ -519,9 +519,6 @@ form[action*="tix_action=attendee_info"] input[type="submit"]:focus {
 	box-shadow: rgba(0, 0, 0, 0) 0 1px 4px !important;
 }
 
-.attendee-box {
-	padding: 5% !important;
-}
 
 .join-wck26 .wp-block-button {
 	width: 100%;
@@ -728,4 +725,5 @@ a.tix-website-url-blog-portfolio-or-agency::before {
 .wp-element-button:hover, .wp-block-button__link:hover{
     background-color: var(--wp--preset--color--custom-orang) !important;
 }
+
 
